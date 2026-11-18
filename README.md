@@ -18,6 +18,12 @@ Aplicação gráfica em Python para migrar uma base de dados Firebird 2.1 para F
 
 O programa usa apenas bibliotecas da biblioteca padrão do Python; não é necessário instalar dependências com `pip`.
 
+## Exemplo da interface
+
+![Interface do Migrador Firebird 2.1 para 3.0 após uma migração concluída](https://private-us-east-1.manuscdn.com/sessionFile/ryFPxk8kE4nHMpoy8I1wBI/sandbox/h6YYqDOj0IbzBXhf5Si5UN-images_1794964930101_na1fn_L2hvbWUvdWJ1bnR1L0NPTlZFUlRFUg.png?Expires=1795137731&Signature=MEQCICTmSHSXp6XqDIs6MRUOaBIIbi1rtKA7dw~C0sq1I2TSAiBIJsykusR~PfTimW4EPQNRjwUf33vs5pxdQ9X-lofH2w__&Key-Pair-Id=K1K5N5YNBUUMMN)
+
+Guarde a imagem `CONVERTER.png` na mesma pasta do `README.md` para que seja apresentada no GitHub.
+
 ## Obter o projeto
 
 Abra o PowerShell numa pasta onde tenha permissões de escrita — por exemplo, Documentos — e execute:
@@ -32,19 +38,19 @@ Evite clonar o repositório em `C:\Program Files`, pois essa pasta é protegida 
 
 ## Executar
 
-No PowerShell, dentro da pasta do projeto, execute o ficheiro Python principal. Se o ficheiro se chamar `migrador.py`:
+No PowerShell, dentro da pasta do projeto, execute:
 
 ```
-python .\migrador.py
+python .\firebird_migrador.py
 ```
 
 Se o comando `python` não for reconhecido, experimente:
 
 ```
-py .\migrador.py
+py .\firebird_migrador.py
 ```
 
-Se o ficheiro principal tiver outro nome, substitua `migrador.py` pelo nome correto. Também pode abrir o ficheiro `.py` com o Python, se essa associação estiver configurada no Windows.
+Também pode abrir o ficheiro `firebird_migrador.py` com o Python, se essa associação estiver configurada no Windows.
 
 ## Utilização da aplicação
 
